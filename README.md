@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# ReactOutsideInFrontEndDevelopment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+tutorial on an outside in approach to React TDD
+
+# opinion-ate
+
+An app for tracking reviews of dishes at different restaurants.
+
+Production: https://admiring-hopper-c89926.netlify.app/
 
 ## Available Scripts
 
