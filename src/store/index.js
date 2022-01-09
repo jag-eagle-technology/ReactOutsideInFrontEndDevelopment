@@ -6,8 +6,7 @@ import api from '../api';
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(thunk),
-  devToolsEnhancer(),
+  compose(applyMiddleware(thunk.withExtraArgument(api)), devToolsEnhancer()),
 );
 
 export default store;
